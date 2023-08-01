@@ -31,6 +31,8 @@ packages = [
 
 [tool.poetry.dependencies]
 python = ">=3.9, <4.0"
+python-redmine = "^2.4.0"
+textual = "^0.30.0"
 
 [tool.poetry.group.dev.dependencies]
 autoflake = "*"
@@ -46,6 +48,7 @@ pytest-cov = "*"
 python-kacl = "*"
 tryceratops = "*"
 ruff = "*"
+requests-cache = "^1.1.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
